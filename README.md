@@ -2,7 +2,8 @@
 Non-recursive Distributed Lock Implementation Based on etcd
 
 Usage
-`func main() {
+```go
+func main() {
 	cli, err := clientv3.New(clientv3.Config{
 		Endpoints: []string{"localhost:2379"},
 	})
@@ -22,4 +23,5 @@ Usage
 		return
 	}
 	fmt.Println("lock success")
-}`
+}
+```
