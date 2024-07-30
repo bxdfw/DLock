@@ -25,3 +25,6 @@ func main() {
 	fmt.Println("lock success")
 }
 ```
+
+- [ ] add unit test
+- [ ] modify go.mod
